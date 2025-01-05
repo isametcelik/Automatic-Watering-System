@@ -1,3 +1,2 @@
 # Automatic Watering System
- This system is designed using Arduino
 This system controls a relay based on the value read from a humidity sensor. The sensor measures the moisture level of the soil and produces an analog value. This value is calculated as a percentage and displayed on the serial monitor. If the humidity level is higher than the specified threshold value (15%), the relay is activated and the connected device (for example a pump) is started. Otherwise the relay is disabled. By constantly repeating this process, the code monitors the moisture level of the soil and provides automatic watering when necessary.
